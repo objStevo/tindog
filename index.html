@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google fonts and font awesome-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/70290da503.js"></script>
+  <!-- bootstrap javascript and jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title>TinDog</title>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-android"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section"id="features">
+    <div class="container-fluid features-container">
+      <div class="row">
+        <div class="col-lg-4 features-box">
+          <i class="icon fas fa-check-circle"></i>
+          <h3 class="features-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <i class="icon fas fa-bullseye"></i>
+          <h3 class="features-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4 features-box">
+          <i class="icon fas fa-heart"></i>
+          <h3 class="features-title">Guarenteed to work.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section"id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <!--One of the carousel items needs to be marked as the active class, as the first item-->
+    <!--We can add the role="button" to an image or anchor tag, if we want it to be a button-->
+    <!--aria hideden= true means, for visually impaired reader software, skip over reading the button outloud-->
+    <!--Below that the sr-only span class is for screen readers to read out previous or next instead of button-->
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section"id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section"id="pricing">
+    <div class="container-fluid pricing-wrapper">
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-outline-dark btn-block">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-dark btn-block">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-dark btn-block">Sign up</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+      <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button-cta"><i class="fab fa-android"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button-cta"><i class="fab fa-apple"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <div class="container-fluid">
+    <footer class="white-section" id="footer">
+      <i class="fab fa-twitter icon-link"></i>
+      <i class="fab fa-facebook-f icon-link"></i>
+      <i class="fab fa-instagram icon-link"></i>
+      <i class="fas fa-envelope icon-link"></i>
+      <p>© Copyright 2018 TinDog</p>
+
+    </footer>
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+<!-- IDEA:
+- We can use the grid system, for flex containers; however, the column sizes wont change, they will shrink, they wont be responsive
+- We need to use col-md-6 on the grid system to designate the size, at which it will take up the whole screen
+- Anything less than medium will take up the full width
+- The grid system, is anything above col-lg-3, is anything above large is 3, below is defaulted to 100% of screen/row
+- If you want google fonts bold or different sizes, you have to choose customize on google fonts page and download that link element
+- Section is a semantic element and describes a standalone section of html
+- You dont specify units for line height, its 1.5 times no spacing, I think.
+-Containers in bootstrap are automatically responsive, they change size on their own.
+- fliud containers take up 100 percent of the width.
+- The fluid container changes size to always take up 100 percent of the width, instead of jumping around like container
+-Use command forward slash to comment <!DOCTYPE html>
+- To manipulate the z-index of html elements, they need to be position: abosolute/relative/fixed
+- z-index: 0 is standard, -1 is behind, 1 is on top
+- Combining selectors: 1. Multiple selectors h1, p {} combine with comma.
+- 2 Hierarchical selectors, which is #cta .container-fluid{} or selector1 selector2 {} one space, and it goes parent to child
+- Reads right to left, so selector2 inside selector 1 parent is targeted above.
+- 3. combined selectors no space selector1selector2 or selector1.selector2 or selector1#selector2
+- For (3) they all have to occur in the same element
+- And it reads from left to right, so h1.title will target <h1 class="title">
+-important try not to add multiple classes
+
+
+
+
+
+
+
+
+
+ -->
